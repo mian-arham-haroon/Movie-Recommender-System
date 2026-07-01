@@ -1,16 +1,22 @@
-﻿# Movie Recommender System
+﻿# 🎬 Movie Recommender System
 
-A Streamlit-powered movie recommendation app built with the TMDB 5000 movie dataset. Pick a movie you like, and the app suggests five similar movies with posters fetched from The Movie Database API.
+A sleek Streamlit-powered app that recommends movies based on similarity, using the TMDB 5000 movie dataset. Pick a movie you love and discover five fresh suggestions with posters fetched directly from TMDB.
 
-## Features
+## ✨ Highlights
 
-- Search or select a movie from an interactive dropdown.
-- Get five content-based movie recommendations.
-- View movie posters directly inside the Streamlit interface.
-- Build the similarity matrix from the CSV data at runtime so the repository stays lightweight.
-- Simple local setup with Python and Streamlit.
+- 🎯 Select any movie from an interactive dropdown
+- 🎥 Get five smart movie recommendations instantly
+- 🖼️ View movie posters directly in the app
+- ⚡ Build recommendations from CSV data at runtime for a lightweight GitHub repo
+- 🐍 Easy setup with Python and Streamlit
 
-## Screenshots
+## 📽️ Demo Video
+
+Watch the app in action:
+
+<video src="video.mp4" controls width="100%"></video>
+
+## 📸 Screenshots
 
 ![Movie recommender home screen](ss/Screenshot%20(3140).png)
 
@@ -20,7 +26,7 @@ A Streamlit-powered movie recommendation app built with the TMDB 5000 movie data
 
 ![Recommendation results](ss/Screenshot%20(3143).png)
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
@@ -29,7 +35,7 @@ A Streamlit-powered movie recommendation app built with the TMDB 5000 movie data
 - Requests
 - TMDB API
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 Movie Recommender System/
@@ -37,6 +43,7 @@ Movie Recommender System/
 ├── requirements.txt
 ├── tmdb_5000_movies.csv
 ├── tmdb_5000_credits.csv
+├── video.mp4
 ├── ss/
 │   ├── Screenshot (3140).png
 │   ├── Screenshot (3141).png
@@ -45,7 +52,7 @@ Movie Recommender System/
 └── README.md
 ```
 
-## Run Locally
+## ▶️ Run Locally
 
 Clone the repository and move into the project folder:
 
@@ -85,11 +92,11 @@ If PowerShell blocks script execution, run this command once in the same termina
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
 ```
 
-## Dataset
+## 📊 Dataset
 
 This project uses the TMDB 5000 Movies and Credits datasets. The recommendation logic is built from the CSV data directly at runtime, so no large serialized model file is required.
 
-## Notes
+## ℹ️ Notes
 
 - Poster images are fetched from TMDB at runtime, so an internet connection is required when using the app.
-- The repository keeps the project lightweight by avoiding oversized binary assets.
+- The repository stays lightweight by avoiding oversized binary assets.
