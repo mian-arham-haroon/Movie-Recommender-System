@@ -4,4 +4,4 @@ __pycache__/
 *.log
 .ipynb_checkpoints/
 *.pkl
-*.mp4
+!video.mp4
