@@ -12,9 +12,20 @@ A sleek Streamlit-powered app that recommends movies based on similarity, using 
 
 ## 📽️ Demo Video
 
-Watch the app in action:
+Watch the app in action and see the movie recommendations flow live:
 
-<video src="video.mp4" controls width="100%"></video>
+<a href="video.mp4">
+  <img src="ss/Screenshot%20(3140).png" alt="Demo video preview" width="100%" />
+</a>
+
+> If the preview does not open directly on GitHub, click the image or use the direct link to [video.mp4](video.mp4).
+
+## 🧠 How It Works
+
+- The app reads the TMDB movie dataset from the CSV files.
+- It combines movie overview, genres, and keywords into a rich feature profile.
+- A similarity model is built at runtime to find movies that feel similar to the one you choose.
+- The app then displays five recommendations along with their posters.
 
 ## 📸 Screenshots
 
